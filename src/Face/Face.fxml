@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="359.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Face.Face">
+   <children>
+      <Button id="file" fx:id="btnFile" layoutX="10.0" layoutY="9.0" mnemonicParsing="false" onAction="#btnFile" prefHeight="27.0" prefWidth="123.0" style="-fx-border-color: #990000;" text="file" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="9.0" />
+      <Button id="btnWrite" fx:id="btnWrite" layoutX="143.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnWrite" prefHeight="25.0" prefWidth="123.0" text="write" AnchorPane.leftAnchor="143.0" AnchorPane.topAnchor="10.0" />
+      <Button id="btnRead" fx:id="btnRead" layoutX="277.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnRead" prefHeight="25.0" prefWidth="123.0" text="read" AnchorPane.leftAnchor="277.0" AnchorPane.topAnchor="10.0" />
+      <TextArea fx:id="txtArea" layoutX="14.0" layoutY="42.0" prefHeight="306.0" prefWidth="552.0" wrapText="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="40.0" />
+      <TextField fx:id="txtField" layoutX="414.0" layoutY="10.0" maxWidth="-Infinity" onKeyPressed="#fldSearch" prefHeight="25.0" prefWidth="163.0" AnchorPane.leftAnchor="414.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>
